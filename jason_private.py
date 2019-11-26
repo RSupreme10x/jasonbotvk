@@ -8,6 +8,7 @@ from threading import Thread
 from time import sleep
 import schedule
 import time
+import os
 
 # ///////////////////////////////////////////////////////// [MASSIVE & DATA] /////////////////////////////////////////////////////////
 ids_chat = [
@@ -451,7 +452,7 @@ t.start()
 
 
 #JASON PRIVATE
-accessToken = '460384f147d2d4e2900af5ef70b10f9c33e3997e840b76c6bfcf5b80714721583b0560a12bcc15b98fc27'
+accessToken = os.environ.get('460384f147d2d4e2900af5ef70b10f9c33e3997e840b76c6bfcf5b80714721583b0560a12bcc15b98fc27')
 groupId = 186083531
 
 # CHRISTOPHER
