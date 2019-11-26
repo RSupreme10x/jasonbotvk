@@ -1,0 +1,6 @@
+vk_api
+threading
+schedule
+aiohttp
+websockets
+chardet
